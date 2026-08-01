@@ -1,8 +1,29 @@
 aid: rever-moto
 name: Rever Moto
-description: Rever Moto is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  REVER (Rever Moto) is a motorcycle-focused navigation, ride-tracking, and social
+  platform for riders. It offers a web-based route planner and mobile apps (iOS,
+  Android, and Apple CarPlay) that let motorcyclists discover more than 3,000
+  curated routes worldwide, plan and sync trips, record rides with offline GPS
+  tracking, and get turn-by-turn voice navigation. Social features include live
+  friend tracking, ride sharing, challenges, and stories. REVER offers a free tier
+  and a paid "Pro" subscription, and partners with brands including Honda, Cycle
+  Gear, and Quad Lock. The company is a portfolio company of 500 Global. As of this
+  enrichment pass REVER publishes no public developer API, documentation, or
+  integration surface — it is a consumer mobile/web product.
 url: https://raw.githubusercontent.com/api-evangelist/rever-moto/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/5c92359ee8b0db7ad88c3517/5edebb1e7a089e43edae0136_Og-Home.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +32,22 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Motorcycle
+- Navigation
+- GPS Tracking
+- Route Planning
+- Mobile App
+- Maps
+- Social
+- Consumer
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +55,19 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/rever-moto-domain-security.yml
 - type: Website
   url: https://rever.co
+- type: Pricing
+  url: https://rever.co/pro
+- type: Support
+  url: https://rever.co/help
+- type: HelpCenter
+  url: https://rever.co/faqs
+- type: Blog
+  url: https://rever.co/stories
+- type: PrivacyPolicy
+  url: https://rever.co/privacy-policy
+- type: TermsOfService
+  url: https://rever.co/terms-of-service
